@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: poppins;
+    margin: 1.5em;
+    background: white;
+}
+.hero-image{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../images/sky.jpg');
+    background-size: cover;
+    background-position-x:20% ;
+    background-position-y: 20%;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+}
+.logo{
+    font-family: pacifico;
+    color: white;
+    text-decoration: none;
+    font-size: 3rem;
+
+}
+nav{
+    position: fixed;
+    right: 0;
+    top:0;
+    background: black;
+    height: 100vh;
+    width: 50%;
+    z-index: 999;
+    text-transform: uppercase;
+    transform: translateX(100%) ;
+    transition: transform .5s ease-in-out;
+    
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin-top: 8em;
+    
+    }
+    a{
+        color:white;
+        padding: .75em 2em;
+        display: block;
+        width: 100%;
+        text-decoration: none;
+
+        &:hover{
+            background: grey;
+        }
+    }
+    .close{
+        float: right;
+        margin: 2em;
+        width: 2.5em;
+        &:hover{
+            background: grey;   
+        }
+    }
+}
+header{
+    display: flex;
+    justify-content:space-between ;
+
+    .menu-image{
+        width: 2em;
+        margin-top:-.6em ;
+        cursor: pointer;
+    }
+}
+h1{
+    font-size: 2rem;
+    margin-top: 4em;
+    line-height: 3.3rem;
+    
+}
+section.hero-section{
+    color: black;
+    height: 37vh;
+    padding: 22%;
+    margin-left: -18%;
+    .subhead{
+        color: grey;
+        padding-left: -18%;
+        padding-right: 28%;
+    }
+    .container{
+        background: rgb(29, 171, 228);
+        border-radius: 2em ;
+        width: 20em;
+        
+        .mobile-cta{
+            color: white;
+            padding: 1.5%;
+            padding-left: 20%;
+            padding-right: 20%;
+            cursor: pointer;
+        }
+    }
+    
+}
+section.app-info{
+    background: white;
+    line-height: 2.5em;
+
+    .container{
+        line-height: 2.5em;
+        .head{
+            color: black;
+            text-align: center;
+        }
+        
+        .subhead{
+            color: grey;
+            text-transform: uppercase;
+            font-size: 0.8em;
+            text-align: center;
+        }
+        p{
+            color: grey;
+        }
+
+    }
+    .phone-icon{
+        
+        width: 100%;
+    }
+}
+section.feature-section{
+    text-align: center;
+
+    .subhead{
+        color: grey;
+        text-transform: uppercase;
+        font-size: 0.8em;
+    }
+    p{
+        color: grey;
+    }
+    .icon1{
+        width: 100%;
+    }
+
+
+}
+section.career{
+
+    .footer-image{
+        position: absolute;
+        
+        background: url('../images/laptop\ image.jpg');
+        background-size: cover;
+        background-position-x:20% ;
+        background-position-y: 20%;
+        width: 100%;
+        height: 100vh;
+        z-index: -1;
+        overflow: hidden;
+    }
+    .container{
+        text-align: center;
+        padding: 5%;
+        .head{
+            color: black;
+        }
+        .body{
+            color: grey;
+            padding-left: 9%;
+            padding-right: 9%;
+        }
+    }
+}
+section.end{
+    .container{
+        background: rgb(29, 171, 228);
+        border-radius: 2em ;
+        width: 20em;
+
+    }
+}
+
+
+
